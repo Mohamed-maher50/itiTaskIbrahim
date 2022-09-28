@@ -1,0 +1,31 @@
+.text-color{
+    color:#00e1ff;
+}
+.p-color{
+    color: #929ba0;
+}
+.social-media{
+    background-color:#f7f7f7;
+    padding: 0px !important;
+    margin: 0px !important;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.social-media:hover:nth-last-of-type(1){
+    background-color: #ee558e;
+}
+.social-media:hover:nth-last-of-type(2){
+    background-color: #db5442;
+}
+.social-media:hover:nth-last-of-type(3){
+    background-color: #2ca9e1;
+}
+.social-media:hover:nth-last-of-type(4){
+    background-color: #36609e;
+}
+.social-media:hover i{
+    color: #fff;
+}
